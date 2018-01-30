@@ -1,0 +1,8 @@
+application:
+  security:
+    jwt:
+      auth-header: "Authorization"
+      token-head: "Bearer "
+      secret: "myJwtSecret"
+      access-token-expiry: 360
+foo: foo-version-1.0
